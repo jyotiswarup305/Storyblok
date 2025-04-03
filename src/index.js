@@ -6,6 +6,9 @@ import ReactDOM from "react-dom";
 
 // Importing the main App component
 import App from "./App";
+import StoryblokToolPlugin from "./StoryblokPlugin";
+
 
 // Rendering the App component into the DOM element with id "root"
-ReactDOM.render(<App />, document.getElementById("root"));
+// ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<StoryblokPlugin />, document.getElementById("root"));
